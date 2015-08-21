@@ -1,0 +1,30 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitXY"
+        android:background="#f00"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitXY"
+        android:background="#f00"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+
+</android.support.percent.PercentRelativeLayout>
